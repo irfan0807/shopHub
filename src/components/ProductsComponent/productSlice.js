@@ -1,15 +1,16 @@
 import { createSlice } from "@reduxjs/toolkit";
 import data from "../../data";
 
+
 const initialStateProduct = {
   data: data.products
 };
 
 export const productSlice = createSlice({
   name: "products",
-  initialState : initialStateProduct,
+  initialState: initialStateProduct,
   reducers: {
-    
+
   },
 });
 

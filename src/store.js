@@ -4,6 +4,10 @@ import productReducer from './components/ProductsComponent/productSlice'
 import authReducer from './components/Users/authSlice'
 import cartReducer from './components/CartComponent/cartSlice'
 
+// import { configureStore } from '@reduxjs/toolkit'
+// Or from '@reduxjs/toolkit/query/react'
+import { setupListeners } from '@reduxjs/toolkit/query'
+
 import storage from 'redux-persist/lib/storage';
 import { combineReducers } from 'redux';
 import { persistReducer } from 'redux-persist';
